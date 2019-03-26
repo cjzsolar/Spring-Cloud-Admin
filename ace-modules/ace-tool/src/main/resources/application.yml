@@ -11,7 +11,7 @@ spring:
     application:
         name: ace-tool
     rabbitmq:
-      host: ${RABBIT_MQ_HOST:localhost}
+      host: ${RABBIT_MQ_HOST:10.253.7.3}
       port:  ${RABBIT_MQ_PORT:5672}
       username: guest
       password: guest
